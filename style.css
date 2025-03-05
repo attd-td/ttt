@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #2E8B57;
+    color: black;
     background-color: #FFFFFF;
 }
 
@@ -25,6 +25,7 @@ h1, h2, h3 {
     color: #4682B4;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-weight: 600;
 }
 
 ul {
