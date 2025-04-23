@@ -1,31 +1,33 @@
 body {
-    font-family: 'Press Start 2P', 'Courier New', monospace;
-    line-height: 1.6;
+    font-family: 'Press Start 2P', cursive; /* Піксельний шрифт */
+    line-height: 1.5;
     margin: 0;
     padding: 0;
-    color: #CD5C5C; /* Індіанський червоний */
-    background-color: #FFE4E1; /* Рожевий туман */
+    color: #000; /* Чорний текст */
+    background-color: #71C5CF; /* Світло-блакитний фон неба */
 }
 
 header {
-    background-color: #F08080; /* Світло-кораловий */
-    padding: 20px;
+    background-color: #FFD700; /* Жовтий колір сонця/логотипу */
+    padding: 15px 20px;
     text-align: center;
-    border-bottom: 4px solid #FFB6C1; /* Світло-рожевий */
+    border-bottom: 5px solid #B8860B; /* Темно-золотий */
 }
 
 section {
     padding: 20px;
-    margin: 20px;
-    background-color: rgba(240, 128, 128, 0.3); /* Напівпрозорий світло-кораловий */
-    border: 4px solid #FFB6C1; /* Світло-рожевий */
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Білий фон контенту */
+    border: 5px solid #B8860B; /* Темно-золотий */
+    border-radius: 8px;
 }
 
 h1, h2, h3 {
-    color: #E9967A; /* Темний лососевий */
+    color: #FFA500; /* Помаранчевий акцент */
+    text-align: center;
+    margin-top: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
-    position: relative;
 }
 
 ul {
@@ -35,60 +37,69 @@ ul {
 
 li {
     margin-bottom: 10px;
-    padding: 10px;
-    border: 2px solid #FFB6C1; /* Світло-рожевий */
-    background-color: rgba(255, 182, 193, 0.1); /* Напівпрозорий світло-рожевий */
+    padding: 12px;
+    border: 3px solid #BDB76B; /* Темно-хакі */
+    background-color: #FAF0E6; /* Кремовий */
+    border-radius: 5px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    background-color: #F08080; /* Світло-кораловий */
+    background-color: #FAF0E6; /* Кремовий */
     padding: 20px;
-    border: 4px solid #FFB6C1; /* Світло-рожевий */
+    border: 3px solid #BDB76B; /* Темно-хакі */
+    border-radius: 8px;
 }
 
 label {
-    margin-bottom: 5px;
-    color: #E9967A; /* Темний лососевий */
+    margin-bottom: 8px;
+    color: #556B2F; /* Темно-оливково-зелений */
+    text-transform: uppercase;
+    font-size: 0.9em;
 }
 
 input, textarea {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     padding: 10px;
-    border: 2px solid #FFB6C1; /* Світло-рожевий */
-    border-radius: 0;
-    background-color: #FFFFFF;
-    color: #E9967A; /* Темний лососевий */
-    font-family: 'Courier New', monospace;
+    border: 2px solid #BDB76B; /* Темно-хакі */
+    border-radius: 5px;
+    font-family: 'Courier New', monospace; /* Збережено моноширинний шрифт для введення */
 }
 
 button {
-    padding: 10px;
-    background-color: #DC143C; /* Багряний */
-    color: #FFFFFF;
+    padding: 12px 20px;
+    background-color: #3CB371; /* Середній морський зелений (колір пташки) */
+    color: #fff;
     border: none;
-    font-family: 'Press Start 2P', 'Courier New', monospace;
-    text-transform: uppercase;
+    border-radius: 8px;
     cursor: pointer;
-    transition: all 0.3s;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    font-size: 0.9em;
 }
 
 button:hover {
-    background-color: #FF69B4; /* Гарячий рожевий */
-    transform: scale(1.05);
+    background-color: #2E8B57; /* Морський зелений */
+    transform: scale(1.02);
 }
 
 footer {
-    background-color: #F08080; /* Світло-кораловий */
+    background-color: #8FBC8F; /* Темно-блідо-зелений (колір землі/труб) */
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     width: 100%;
+    position: fixed; /* Фіксований низ для імітації землі */
     bottom: 0;
-    border-top: 4px solid #FFB6C1; /* Світло-рожевий */
+    border-top: 3px solid #556B2F; /* Темно-оливково-зелений */
 }
 
 footer a {
-    color: #CD5C5C; /* Індіанський червоний */
+    color: #fff;
     text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
