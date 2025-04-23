@@ -3,26 +3,26 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #2E8B57;
-    background-color: #FFFFFF;
+    color: #CD5C5C; /* Індіанський червоний */
+    background-color: #FFE4E1; /* Рожевий туман */
 }
 
 header {
-    background-color: #F8F8FF;
+    background-color: #F08080; /* Світло-кораловий */
     padding: 20px;
     text-align: center;
-    border-bottom: 4px solid #B0C4DE;
+    border-bottom: 4px solid #FFB6C1; /* Світло-рожевий */
 }
 
 section {
     padding: 20px;
     margin: 20px;
-    background-color: rgba(248, 248, 255, 0.3);
-    border: 4px solid #B0C4DE;
+    background-color: rgba(240, 128, 128, 0.3); /* Напівпрозорий світло-кораловий */
+    border: 4px solid #FFB6C1; /* Світло-рожевий */
 }
 
 h1, h2, h3 {
-    color: #4682B4;
+    color: #E9967A; /* Темний лососевий */
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
@@ -36,36 +36,36 @@ ul {
 li {
     margin-bottom: 10px;
     padding: 10px;
-    border: 2px solid #B0C4DE;
-    background-color: rgba(176, 196, 222, 0.1);
+    border: 2px solid #FFB6C1; /* Світло-рожевий */
+    background-color: rgba(255, 182, 193, 0.1); /* Напівпрозорий світло-рожевий */
 }
 
 form {
     display: flex;
     flex-direction: column;
-    background-color: #F8F8FF;
+    background-color: #F08080; /* Світло-кораловий */
     padding: 20px;
-    border: 4px solid #B0C4DE;
+    border: 4px solid #FFB6C1; /* Світло-рожевий */
 }
 
 label {
     margin-bottom: 5px;
-    color: #4682B4;
+    color: #E9967A; /* Темний лососевий */
 }
 
 input, textarea {
     margin-bottom: 10px;
     padding: 10px;
-    border: 2px solid #B0C4DE;
+    border: 2px solid #FFB6C1; /* Світло-рожевий */
     border-radius: 0;
     background-color: #FFFFFF;
-    color: #4682B4;
+    color: #E9967A; /* Темний лососевий */
     font-family: 'Courier New', monospace;
 }
 
 button {
     padding: 10px;
-    background-color: #2E8B57;
+    background-color: #DC143C; /* Багряний */
     color: #FFFFFF;
     border: none;
     font-family: 'Press Start 2P', 'Courier New', monospace;
@@ -75,20 +75,20 @@ button {
 }
 
 button:hover {
-    background-color: #4682B4;
+    background-color: #FF69B4; /* Гарячий рожевий */
     transform: scale(1.05);
 }
 
 footer {
-    background-color: #F8F8FF;
+    background-color: #F08080; /* Світло-кораловий */
     text-align: center;
     padding: 10px;
     width: 100%;
     bottom: 0;
-    border-top: 4px solid #B0C4DE;
+    border-top: 4px solid #FFB6C1; /* Світло-рожевий */
 }
 
 footer a {
-    color: #2E8B57;
+    color: #CD5C5C; /* Індіанський червоний */
     text-decoration: none;
 }
