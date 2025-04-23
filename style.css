@@ -1,6 +1,6 @@
 body {
-    font-family: 'Press Start 2P', 'Courier New', monospace;
-    line-height: 1.5;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #000; /* Чорний текст */
@@ -9,23 +9,22 @@ body {
 
 header {
     background-color: #FFD700; /* Жовтий колір сонця/логотипу */
-    padding: 10px 20px;
+    padding: 20px;
     text-align: center;
-    border-bottom: 3px solid #B8860B; /* Темно-золотий */
+    border-bottom: 4px solid #B8860B; /* Темно-золотий */
 }
 
 section {
     padding: 20px;
-    margin: 10px;
-    background-color: rgba(255, 255, 255, 0.8); /* Білий фон контенту */
-    border: 3px solid #B8860B; /* Темно-золотий */
-    border-radius: 5px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Білий фон секцій */
+    border: 4px solid #B8860B; /* Темно-золотий */
 }
 
 h1, h2, h3 {
     color: #FFA500; /* Помаранчевий акцент */
-    text-align: center;
-    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 ul {
@@ -34,11 +33,10 @@ ul {
 }
 
 li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     padding: 10px;
     border: 2px solid #BDB76B; /* Темно-хакі */
     background-color: #FAF0E6; /* Кремовий */
-    border-radius: 3px;
 }
 
 form {
@@ -46,8 +44,7 @@ form {
     flex-direction: column;
     background-color: #FAF0E6; /* Кремовий */
     padding: 20px;
-    border: 2px solid #BDB76B; /* Темно-хакі */
-    border-radius: 5px;
+    border: 4px solid #BDB76B; /* Темно-хакі */
 }
 
 label {
@@ -57,24 +54,28 @@ label {
 
 input, textarea {
     margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #BDB76B; /* Темно-хакі */
-    border-radius: 3px;
+    padding: 10px;
+    border: 2px solid #BDB76B; /* Темно-хакі */
+    border-radius: 0;
+    background-color: #fff; /* Білий фон для введення */
+    color: #000; /* Чорний колір тексту для введення */
+    font-family: Andale Mono, monospace;
 }
 
 button {
-    padding: 10px 15px;
+    padding: 10px;
     background-color: #3CB371; /* Середній морський зелений (колір пташки) */
     color: #fff;
     border: none;
-    border-radius: 5px;
+    font-family: Andale Mono, monospace;
+    text-transform: uppercase;
     cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s;
 }
 
 button:hover {
     background-color: #2E8B57; /* Морський зелений */
+    transform: scale(1.05);
 }
 
 footer {
@@ -82,16 +83,15 @@ footer {
     text-align: center;
     padding: 10px;
     width: 100%;
-    position: fixed; /* Фіксований низ для імітації землі */
     bottom: 0;
-    border-top: 2px solid #556B2F; /* Темно-оливково-зелений */
+    border-top: 4px solid #556B2F; /* Темно-оливково-зелений */
 }
 
-footer a {
-    color: #fff;
+a {
+    color: #000; /* Чорний колір посилань */
     text-decoration: none;
 }
 
-footer a:hover {
+a:hover {
     text-decoration: underline;
 }
