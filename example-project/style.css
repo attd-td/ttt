@@ -90,7 +90,6 @@ footer {
     text-align: center;
     padding: 15px;
     width: 100%;
-    position: fixed; /* Фіксований низ для імітації землі */
     bottom: 0;
     border-top: 3px solid #556B2F; /* Темно-оливково-зелений */
 }
